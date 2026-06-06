@@ -91,7 +91,7 @@ Konvert binary file.
 Note: If the application doesn't start, right-click the binary file, go to Properties -> 
 Permissions, and check "Allow executing file as program" (or run chmod +x Konvert in your terminal).
 
-📝 How To Use
+📝 How To Use 
 
 Select Language: Choose your preferred language from the dropdown menu at the top left.
 
