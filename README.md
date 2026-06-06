@@ -8,58 +8,58 @@ architecture that ensures a smooth, non-freezing user interface during large bat
 
 🚀 Key Features
 
-    Smart Conversion Engine (Plan A, B, & C): * Plan A: Attempts a full, standard MusicXML to MIDI conversion.
+Smart Conversion Engine (Plan A, B, & C): * Plan A: Attempts a full, standard MusicXML to MIDI conversion.
 
-        Plan B: If the file has layout conflicts, the app automatically cleans specific repeats, codas, and barlines 
-         to rescue the track.
+Plan B: If the file has layout conflicts, the app automatically cleans specific repeats, codas, and barlines 
+to rescue the track.
 
-        Plan C: If everything else fails, it extracts a raw note-and-rest stream to guarantee a working MIDI output.
+Plan C: If everything else fails, it extracts a raw note-and-rest stream to guarantee a working MIDI output.
 
-    True Multithreading: The UI never freezes. You can safely stop or pause processing at any point during  
-      a batch run.
+True Multithreading: The UI never freezes. You can safely stop or pause processing at any point during  
+a batch run.
 
-    Native Look & Feel: Utilizes system-integrated elements and standard fonts (TkFixedFont) to look 
-     clean and professional across all operating systems.
+Native Look & Feel: Utilizes system-integrated elements and standard fonts (TkFixedFont) to look 
+clean and professional across all operating systems.
 
-    Smart Config Storage: Remembers your last used folder and language preferences. Settings are stored in 
-    official system paths (like Application Support on macOS) to prevent workspace clutter and keep 
-    launch speeds blazing fast.
+Smart Config Storage: Remembers your last used folder and language preferences. Settings are stored in 
+official system paths (like Application Support on macOS) to prevent workspace clutter and keep 
+launch speeds blazing fast.
 
 🌍 Supported Languages (16 Languages)
 
 The application supports real-time language switching directly inside the GUI:
 
-    🇩🇪 Deutsch (German)
+🇩🇪 Deutsch (German)
 
-    🇺🇸 English (English)
+🇺🇸 English (English)
 
-    🇫🇷 Français (French)
+🇫🇷 Français (French)
 
-    🇪🇸 Español (Spanish)
+🇪🇸 Español (Spanish)
 
-    🇮🇹 Italiano (Italian)
+🇮🇹 Italiano (Italian)
 
-    🇳🇱 Nederlands (Dutch)
+🇳🇱 Nederlands (Dutch)
 
-    🇵🇱 Polski (Polish)
+🇵🇱 Polski (Polish)
 
-    🇨🇿 Čeština (Czech)
+🇨🇿 Čeština (Czech)
 
-    🇷🇺 Русский (Russian)
+🇷🇺 Русский (Russian)
 
-    🇺🇦 Українська (Ukrainian)
+🇺🇦 Українська (Ukrainian)
 
-    🇹🇷 Türkçe (Turkish)
+🇹🇷 Türkçe (Turkish)
 
-    🇬🇷 Ελληνικά (Greek)
+🇬🇷 Ελληνικά (Greek)
 
-    🇵🇹 Português (Portuguese)
+🇵🇹 Português (Portuguese)
 
-    🇸🇪 Svenska (Swedish)
+🇸🇪 Svenska (Swedish)
 
-    🇭🇺 Magyar (Hungarian)
+🇭🇺 Magyar (Hungarian)
 
-    🇷🇴 Română (Romanian)
+🇷🇴 Română (Romanian)
 
 📦 Downloads & Installation
 
@@ -68,39 +68,39 @@ for your operating system:
 
 🖥️ Windows
 
-    File: Konvert.7z
+File: Konvert.7z
 
-    Instructions: Extract the .7z archive using 7-Zip or WinRAR. Open the extracted folder 
+Instructions: Extract the .7z archive using 7-Zip or WinRAR. Open the extracted folder 
 and run Konvert.exe directly. It is completely portable and can be run from a USB drive.
 
 🍎 macOS
 
-    File: Konvert.dmg
+File: Konvert.dmg
 
-    Instructions: Open the .dmg file and drag the application into your workspace. 
+Instructions: Open the .dmg file and drag the application into your workspace. 
 It launches instantly. Because it follows Apple's native security guidelines, your settings 
 are saved invisibly in the background, keeping your workspace perfectly clean.
 
 🐧 Linux
 
-    File: Konvert.tar.gz
+File: Konvert.tar.gz
 
-    Instructions: Extract the .tar.gz archive. Open the extracted folder and run the 
-    Konvert binary file.
+Instructions: Extract the .tar.gz archive. Open the extracted folder and run the 
+Konvert binary file.
 
-    Note: If the application doesn't start, right-click the binary file, go to Properties -> 
+Note: If the application doesn't start, right-click the binary file, go to Properties -> 
 Permissions, and check "Allow executing file as program" (or run chmod +x Konvert in your terminal).
 
 📝 How To Use
 
-    Select Language: Choose your preferred language from the dropdown menu at the top left.
+Select Language: Choose your preferred language from the dropdown menu at the top left.
 
-    Select Folder: Click "Select Folder" to choose the directory containing your sheet music files. 
-    The app automatically scans all subdirectories.
+Select Folder: Click "Select Folder" to choose the directory containing your sheet music files. 
+the app automatically scans all subdirectories.
 
-    Convert: Click "START / REFRESH". The real-time console will print out detailed statuses of every 
-    file processed.
-    <img width="622" height="552" alt="Screenshot 2026-06-06 220034" src="https://github.com/user-attachments/assets/2d79aaf4-c804-4762-a92a-4736c0835001" />
+Convert: Click "START / REFRESH". The real-time console will print out detailed statuses of every 
+file processed.
+<img width="622" height="552" alt="Screenshot 2026-06-06 220034" src="https://github.com/user-attachments/assets/2d79aaf4-c804-4762-a92a-4736c0835001" />
 
 
     Stop: If needed, hit "STOP" to immediately cancel the ongoing task safely.
